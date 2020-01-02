@@ -2,7 +2,7 @@ package graphdb
 
 import "github.com/neo4j/neo4j-go-driver/neo4j"
 
-func GetNeo4(username string, password string) (neo4j.Driver, error) {
+func GetNeo4j(username string, password string) (neo4j.Driver, error) {
 	var (
 		driver neo4j.Driver
 		err    error
